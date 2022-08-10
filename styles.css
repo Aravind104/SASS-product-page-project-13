@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header
+{
+    background-color: #7e0ce9;
+    height: 80vh;
+
+}
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+}
+.logo{
+    margin-left: 4rem;
+}
+.list-items{
+    width: 70%;
+    display:flex;
+    list-style: none;
+    gap: 3rem;
+    justify-content: flex-end;
+}
+.list-items .list>a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.nav-bar button{
+    padding: 0.8rem;
+    margin-right: 4rem;
+    background-color: #36cdcddd;
+    border: none;
+    color:#fff;
+}
+
+.main1{
+    display:flex;
+    flex-direction: row;
+}
+
+.main1 .header-left{
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+    width:40%;
+    margin: 4rem;
+}
+.complete-flow-photo{
+    width: 1rem;;
+}
+.header-title{
+    color: #fff;
+    font-size: 4rem;
+}
+.header-para{
+    color: #fff;
+    opacity: 0.8;
+}
+.header-image{
+    padding-left: 4rem;
+}
+.complete-flow-photo{
+    width: 35rem;
+}
+
+.right-icon{
+    display:inline-block;
+}
+
+.helps{
+    display:flex;
+    justify-content:space-around;
+}
+.saas-image{
+    width:800px;
+}
+.helps-right{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap: 3rem;
+}
+.helps-right1{
+    display:flex;
+    flex-direction:column;
+    gap: 3rem;
+    align-items: center;
+}
+.features{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    gap: 1rem;
+}
+.features h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cus-title{
+    font: size 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+.customer-cards{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+
+}
+.cards{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    height: 40vh;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px #000; ;
+}
+.cards img{
+    margin-top: 0.5rem;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+    gap: 1rem;
+}
+.content .h3{
+    color: #000;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.content p{
+    width: 60%;
+    padding: 1rem;
+}
+.card-icon{
+    width: 4rem;
+} 
